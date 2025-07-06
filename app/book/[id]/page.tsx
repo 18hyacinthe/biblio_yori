@@ -1,4 +1,4 @@
-import BookContent from '@/components/BookContent';
+import BookContent from '../../../components/BookContent';
 
 interface BookPageProps {
   params: {
