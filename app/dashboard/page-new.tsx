@@ -4,10 +4,10 @@ import { useAuth } from '../../contexts/AuthContext';
 import { useConfig } from '../../contexts/ConfigContext';
 import ProtectedRoute from '../../components/ProtectedRoute';
 import { loanService, notificationService, utils, bookService } from '../../lib/api';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Alert, AlertDescription } from '../../components/ui/alert';
+import { Button } from '../../components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
+import { Badge } from '../../components/ui/badge';
 import Link from 'next/link';
 import { 
   BookOpen, 

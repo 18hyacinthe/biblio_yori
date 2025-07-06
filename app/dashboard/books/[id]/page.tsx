@@ -25,11 +25,11 @@ import {
   XCircle,
   AlertCircle
 } from 'lucide-react';
-import { useAuth } from '@/contexts/AuthContext';
-import { bookService } from '@/lib/api';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { useAuth } from '../../../../contexts/AuthContext';
+import { bookService } from '../../../../lib/api';
+import { Button } from '../../../../components/ui/button';
+import { Badge } from '../../../../components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '../../../../components/ui/card';
 import Link from 'next/link';
 
 interface Book {

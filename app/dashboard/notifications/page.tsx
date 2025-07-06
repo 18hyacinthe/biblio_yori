@@ -4,8 +4,8 @@ import { useAuth } from '../../../contexts/AuthContext';
 import { useConfig } from '../../../contexts/ConfigContext';
 import ProtectedRoute from '../../../components/ProtectedRoute';
 import { notificationService, utils, type Notification, type PaginatedNotificationsResponse } from '../../../lib/api';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '../../../components/ui/card';
+import { Button } from '../../../components/ui/button';
 import { Bell, CheckCircle, Clock, AlertTriangle, BookOpen, Calendar, FileText, Users, RefreshCcw, Settings } from 'lucide-react';
 
 export default function NotificationsPage() {

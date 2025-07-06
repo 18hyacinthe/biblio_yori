@@ -27,14 +27,14 @@ import BookCard from '../../components/BookCard';
 import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { Badge } from '../../components/ui/badge';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
 import Link from 'next/link';
 import Image from 'next/image';
 import { cn } from '../../lib/utils';
 import { bookService, loanService } from '../../lib/api';
 import type { Book } from '../../lib/api';
 import { useAuth } from '../../contexts/AuthContext';
-import Toast from '@/components/Toast';
+import Toast from '../../components/Toast';
 
 interface Category {
   name: string;
